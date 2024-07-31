@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports News - Badminton Insights</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="style_2.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg  bg-color sticky-top  navbar-custom-height    ">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"
+        style="font-size: px; padding: left 50px; height: 100px; width: 200px; font-family: 'Open Sans', 'Helvetica Neue', sans-serif; color: #fff; font-weight: bold; "><img
+          src="./images/Asset 1.png" alt="" srcset="" height="20px" width="20px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        style="color: #fff;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 " style="font-weight: bold;">
+          <li class="nav-item">
+            <a class="nav-link " href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sports
+            </a>
+            <ul class="dropdown-menu">
+              <h6 class="dropdown-header">Team Sports</h6>
+              <a class="dropdown-item" href="./football.html" data-sport="football">Football</a>
+              <a class="dropdown-item" href="./football.html" data-sport="football">Cricket</a>
+              <a class="dropdown-item" href="#" data-sport="volleyball">Volleyball</a>
+              <a class="dropdown-item" href="#" data-sport="badminton">Badminton</a>
+              <a class="dropdown-item" href="#" data-sport="basketball">Basketball</a>
+              <a class="dropdown-item" href="#" data-sport="baseball">Baseball</a>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">Individual Sports</h6>
+              <a class="dropdown-item" href="#" data-sport="judo">Judo</a>
+              <a class="dropdown-item" href="#" data-sport="tennis">Tennis</a>
+              <a class="dropdown-item" href="#" data-sport="motorcycle-racing">Motorcycle Racing</a>
+              <a class="dropdown-item" href="#" data-sport="golf">Golf</a>
+              <a class="dropdown-item" href="#" data-sport="chess">Chess</a>
+              <a class="dropdown-item" href="#" data-sport="billiards">Billiards</a>
+              <a class="dropdown-item" href="#" data-sport="swimming">Swimming</a>
+              <a class="dropdown-item" href="#" data-sport="athletics">Athletics</a>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+          <div class="navbar-search">
+            <input class="form-control" id="search-input" type="search" placeholder="Search" aria-label="Search">
+            <i class="fa fa-search"></i>
+            <div class="search-results" id="search-results" style="display: none;"></div>
+          </div>
+          <i class="fa fa-search" id="toggle-search"></i>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div>
+    <h1
+      style="font-size: 50px; font-weight: bolder; font-family: Helvetica Neue; margin-top: 50px; margin-left: 50px; margin-right: 50px;">
+      Badminton: A Game of Speed, Strategy, and Skill.</h1>
+  </div>
+  <div>
+    <img id="bad" src="images/bad_head.png" alt="" style="padding-bottom: 0px; margin-bottom: 0px;">
+  </div>
+  <!-- Main Content -->
+  <div class=" mt-0" style="margin-top: 0px;">
+    <header class="text-center mb-">
+      <!-- <h1>Badminton Insights: The Game and Its Glory</h1> -->
+      <p>Badminton, a sport that combines speed, strategy, and skill, is enjoyed by millions around the globe. Its roots
+        date back to ancient civilizations, but it gained significant popularity in its modern form during the 19th
+        century. Today, badminton is played both recreationally and competitively, with major tournaments drawing
+        international attention. This article delves into the various aspects of badminton, including its gameplay,
+        strategies, rules, and some fascinating facts.</p>
+      <p class="lead">Explore the intricacies of badminton, from player dynamics to the rules that govern this exciting
+        sport.</p>
+    </header>
+
+    <!-- Section A: How many players play the game? -->
+    <section id="players">
+      <h2 class="mb-3">How many players play the game?</h2>
+      <p>Badminton can be played in singles (one player per side) or doubles (two players per side). In singles, there
+        are two players, one on each side of the court. In doubles, there are four players, with two players forming a
+        team on each side of the court.</p>
+      <!-- Add images of players here -->
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="player1.jpg" class="img-fluid rounded" alt="Player 1">
+          <h4>Player Name</h4>
+          <p>Position: Forward</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="player2.jpg" class="img-fluid rounded" alt="Player 2">
+          <h4>Player Name</h4>
+          <p>Position: Midfielder</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="player3.jpg" class="img-fluid rounded" alt="Player 3">
+          <h4>Player Name</h4>
+          <p>Position: Defender</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section B: Strategy of the game -->
+    <section id="strategy">
+      <h2 class="mb-3">Strategy of the game</h2>
+      <p>Badminton strategy involves several key elements:</p>
+      <ul>
+        <li>Shot Selection: Choosing between various shots such as clears, smashes, drops, and net shots based on the
+          position of the shuttlecock and opponent.</li>
+        <li>Footwork: Agile movement across the court to reach the shuttlecock quickly and efficiently.</li>
+        <li>Tactics: Exploiting opponents' weaknesses, varying the pace and placement of shots, and maintaining control
+          of rallies.</li>
+        <li>Serve and Return: Strategizing serves to gain a tactical advantage and returning serves effectively to start
+          rallies in a favorable position.</li>
+      </ul>
+    </section>
+
+    <!-- Section C: Is it a team game? -->
+    <section id="team-game">
+      <h2 class="mb-3">Is it a team game?</h2>
+      <p>Badminton can be both an individual and a team game. While singles matches are individual competitions, doubles
+        matches involve teams of two players on each side of the court. Team events like the Thomas Cup (men) and Uber
+        Cup (women) are prestigious international competitions where countries compete against each other.</p>
+    </section>
+
+    <!-- Section D: Rules of the game -->
+    <section id="rules">
+      <h2 class="mb-3">Rules of the game</h2>
+      <p>1. Scoring: Matches are typically best-of-three games. Each game is played to 21 points, with a two-point
+        advantage needed to win. If the score reaches 20-20, the game continues until one player/team gains a two-point
+        lead.</p>
+      <p>2. Serve: The serve must be hit below waist level and diagonally to the opponent's service court.</p>
+      <p>3. Faults: A point is lost if the shuttlecock lands out of bounds, fails to clear the net, or if a player
+        commits a foot fault during the serve.</p>
+      <p>4. Let: If the shuttlecock touches the net but still lands in the opponent's court, it is a let, and the serve
+        is retaken.</p>
+    </section>
+
+    <!-- Section E: Some important facts about the game -->
+    <section id="facts">
+      <h2 class="mb-3">Some important facts about the game</h2>
+      <p>Badminton has roots dating back to ancient civilizations in Europe and Asia but gained popularity in its modern
+        form in British India in the mid-19th century.</p>
+      <p>Major tournaments include the All England Open Badminton Championships, the BWF World Championships, and
+        badminton events at the Olympic Games.</p>
+    </section>
+
+    <!-- Section F: Statistics/records -->
+    <section id="statistics">
+      <h2 class="mb-3">Statistics/records</h2>
+      <p>Most Olympic Gold Medals: Lin Dan of China and Zhang Ning of China are among the top players with two Olympic
+        gold medals each.</p>
+      <p>Fastest Smash: The fastest recorded badminton smash was hit by Fu Haifeng of China at 332 km/h (206 mph).</p>
+    </section>
+
+    <!-- Section G: Player Images and Information -->
+    <section id="player-profiles">
+      <h2 class="mb-3">Player Images and Information</h2>
+      <p>Here are images of some iconic badminton players. Clicking on the images will provide detailed information
+        about them.</p>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <img src="player4.jpg" class="img-fluid rounded" alt="Player 4">
+          <h4>Player Name</h4>
+          <p><a href="#" class="player-profile-link" data-profile="player4">View Profile</a></p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <img src="player5.jpg" class="img-fluid rounded" alt="Player 5">
+          <h4>Player Name</h4>
+          <p><a href="#" class="player-profile-link" data-profile="player5">View Profile</a></p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <img src="player6.jpg" class="img-fluid rounded" alt="Player 6">
+          <h4>Player Name</h4>
+          <p><a href="#" class="player-profile-link" data-profile="player6">View Profile</a></p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <img src="player7.jpg" class="img-fluid rounded" alt="Player 7">
+          <h4>Player Name</h4>
+          <p><a href="#" class="player-profile-link" data-profile="player7">View Profile</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section H: Which all countries play this game? -->
+    <section id="countries">
+      <h2 class="mb-3">Which all countries play this game?</h2>
+      <p>Badminton is played globally, with significant participation from countries such as:</p>
+      <ul>
+        <li>China</li>
+        <li>Indonesia</li>
+        <li>India</li>
+        <li>Malaysia</li>
+        <li>Denmark</li>
+        <li>South Korea</li>
+        <li>Japan</li>
+        <li>Thailand</li>
+      </ul>
+      <p>Other countries also have active badminton communities and competitive players, contributing to the sport's
+        popularity worldwide.</p>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <p>&copy; 2024 SportsInfo. All rights reserved.</p>
+  </footer>
+  <script>
+
+    $(document).ready(function () {
+      $('.player-profile-link').on('click', function (e) {
+        e.preventDefault();
+        var profile = $(this).data('profile');
+        alert('Displaying profile for ' + profile);
+        // Implement profile display logic here
+      });
+    });
+
+
+
+  </script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Custom JS -->
+  <script src="scripts.js"></script>
+</body>
+
+</html>
